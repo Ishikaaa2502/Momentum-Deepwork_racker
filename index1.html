@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Momentum | Deep Work Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<header>
+  <h1>Momentum</h1>
+  <button id="themeToggle">🌙</button>
+</header>
+
+<nav>
+  <a href="#timer">Timer</a>
+  <a href="#stats">Stats</a>
+  <a href="#history">History</a>
+  <a href="#about">About</a>
+</nav>
+
+<section id="hero">
+  <h2>Build Deep Focus. Measure Progress.</h2>
+  <p>Track focused sessions and improve productivity daily.</p>
+  <p style="margin-top:12px; font-size:14px; color:#64748b;">
+  Designed with a minimal-first UX approach to reduce cognitive load during focus sessions.
+  </p>
+</section>
+
+<section id="timer">
+  <h2>Focus Timer</h2>
+  <div class="timer-box">
+    <h3 id="timeDisplay">25:00</h3>
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </div>
+</section>
+
+<section id="stats">
+  <h2>Today's Stats</h2>
+  <p>Sessions Completed: <span id="sessionCount">0</span></p>
+  <p>Productivity Score: <span id="score">0</span></p>
+</section>
+
+<section id="history">
+  <h2>Session History</h2>
+  <ul id="historyList"></ul>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p>This web app was built using HTML, CSS and JavaScript following mobile-first approach. It uses localStorage to maintain session data.</p>
+</section>
+
+<script src="script1.js"></script>
+</body>
+</html>
